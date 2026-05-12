@@ -1,6 +1,7 @@
  function validateForm(){
             let txtName = document.getElementById("firstname").value;
             let txtEmail = document.getElementById("email").value;
+            let txtMoblie = document.getElementById("mobile").value;
         
 
         if(txtName == "")
