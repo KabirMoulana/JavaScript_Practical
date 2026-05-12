@@ -16,7 +16,7 @@
             return false;
         }
 
-        if(txtMobile == "")
+        if(isNaN(txtMobile) == "")
         {
             alert("Please enter mobile number!");
             return false;
